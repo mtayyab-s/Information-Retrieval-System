@@ -1,0 +1,10 @@
+-create an input folder in the same folder where spark is installed
+-put stopwords.txtin the same folder
+- go to the folder where apach spark is installed
+-javac -cp "jars/*" WordCount.java
+-jar cvf WordCount.jar *.class
+-./bin/spark-submit --class WordCount --master local[4] WordCount.jar input stopwords.txt result
+-cd result
+-vi part-00000
+-vi part-00001
+
