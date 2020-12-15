@@ -5,4 +5,4 @@ TF(Term frequency) = count of word in a document/ total no. of words ina documen
 
 IDF (Inverse Document Frequency) = log_e(Total number of documents/number of documents containing that word t)
 
-TF-IDF = TF*IDF
+TF-IDF =  TF*IDF
